@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+body {
+  overscroll-behavior: none;
+}
+
+.opacity {
+  width: 50vh;
+  position: relative;
+}
+
+.opacity::after {
+  content: "";
+  background-image: url("photo_2021-11-26_23-47-46.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1000;
+}
+
+h1 {
+  background-color: cornsilk;
+  color: rgb(238, 149, 149);
+  text-align: center;
+  border: double 5px;
+  max-width: max-content;
+  margin: auto;
+  padding: 0.3cm 0.3cm 0.3cm 0.3cm;
+}
+.img {
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 70%;
+}
+
+.a {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size:large;
+  font-style: oblique;
+  color: black;
+  border: solid rgba(255, 238, 0, 0.836) 5px;
+}
+.aa {
+  text-align: center;
+}
+.b {
+  border: solid rgba(255, 238, 0, 0.836) 5px;
+  text-align: center;
+  font-size: 150%;
+}
+
+.hand{
+  text-align: center;
+}
